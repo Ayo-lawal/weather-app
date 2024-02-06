@@ -1,0 +1,59 @@
+/* Weather.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #888;
+  }
+  
+  
+.forecast {
+    margin-top: 20px;
+  }
+  
+  .forecast-day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (min-width: 576px) {
+    .container {
+      max-width: 600px;
+    }
+}
+  
+@media (min-width: 768px) {
+   .container {
+     max-width: 800px;
+   }
+}
